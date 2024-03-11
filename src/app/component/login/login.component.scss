@@ -1,0 +1,138 @@
+*
+{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p,a
+{
+    color: white;
+}
+
+body
+{
+    /* background-color: #232527; */
+    background-color: #000000;
+}
+
+
+.Layout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Layout {
+    background-color: #1b1b1c;
+    width: 1050px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 50px;
+    border-radius: 50px;
+    border-color: #FCCB06;
+}
+.Layout1
+{
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 30px;
+    /* background-color: aqua; */
+}
+
+.GoogleImageLogo
+{
+    margin-top: 50px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.SignInText,.UseGoogleAcount
+{
+    margin-left: 10px;
+}
+
+.Layout2
+{
+    /* background-color: brown; */
+    margin-right: 30px;
+}
+
+.EmailInput
+{
+    margin-top: 90px;
+    margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: #232527;
+    border-radius: 4px;
+    border-width: 3px;
+    border-color: #FCCB06;
+}
+
+.EmailInput::placeholder
+{
+    color: white;
+}
+
+.ForgotEmailDiv
+{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.NotYourComputer
+{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.LearnMore
+{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.LearnMore,.ForgetEmail
+{
+    color:  #FCCB06;
+}
+
+.CreateNextButtons
+{
+    margin-top: 70px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 150px 100px;
+}
+
+.CreateAccount
+{
+    margin-top: 13px;
+    margin-right: 50px;
+    width: 150px;
+    background-color: #1b1b1c;
+    color: white;
+    border-color: black;
+    border-width: 0px;
+    color: #FCCB06;
+}
+
+.CreateAccount:hover
+{
+    cursor: pointer;
+}
+
+.NextButton
+{
+    width: 80px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 15px;
+    background-color: #FCCB06;
+    border-radius: 15px;
+    border-width: 1px;
+    cursor: pointer;
+}
