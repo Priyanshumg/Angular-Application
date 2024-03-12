@@ -5,13 +5,13 @@
 
 p,a
 {
-    color: white;
+    color: black;
 }
 
 body
 {
     /* background-color: #232527; */
-    background-color: #000000;
+    background-color: #e4ecef;
 }
 
 
@@ -24,14 +24,13 @@ body
 }
 
 .Layout {
-    background-color: #1b1b1c;
+    background-color: white;
     width: 1050px;
     height: 400px;
     display: grid;
     grid-template-columns: 500px 500px;
     column-gap: 50px;
     border-radius: 50px;
-    border-color: #FCCB06;
 }
 .Layout1
 {
@@ -43,14 +42,23 @@ body
 
 .GoogleImageLogo
 {
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     width: 60px;
     cursor: pointer;
 }
 
 .SignInText,.UseGoogleAcount
 {
-    margin-left: 10px;
+  margin-top: 40px;
+    margin-left: 15px;
+}
+
+.SignInText
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 40px;
 }
 
 .Layout2
@@ -65,21 +73,24 @@ body
     margin-left: 20px;
     width: 400px;
     height: 40px;
-    background-color: #232527;
-    border-radius: 4px;
-    border-width: 3px;
-    border-color: #FCCB06;
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset  rgba(0,0,0,0.15);
+    border-color: black;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-left: 15px;
 }
 
 .EmailInput::placeholder
 {
-    color: white;
+    color: black;
 }
 
 .ForgotEmailDiv
 {
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 .NotYourComputer
@@ -92,12 +103,14 @@ body
 .LearnMore
 {
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 .LearnMore,.ForgetEmail
 {
-    color:  #FCCB06;
+    color:  rgb(0, 90, 186);
+    font-weight: bold;
 }
 
 .CreateNextButtons
@@ -113,11 +126,11 @@ body
     margin-top: 13px;
     margin-right: 50px;
     width: 150px;
-    background-color: #1b1b1c;
+    background-color:white;
     color: white;
     border-color: black;
     border-width: 0px;
-    color: #FCCB06;
+    color: rgb(0, 90, 186);
 }
 
 .CreateAccount:hover
@@ -131,8 +144,9 @@ body
     height: 35px;
     margin-top: 7px;
     margin-left: 15px;
-    background-color: #FCCB06;
-    border-radius: 15px;
+    background-color: rgb(0, 90, 186);
+    border-radius: 20px;
     border-width: 1px;
     cursor: pointer;
+    color: white;
 }
