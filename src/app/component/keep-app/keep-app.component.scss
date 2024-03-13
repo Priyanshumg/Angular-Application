@@ -1,0 +1,94 @@
+.Dashboard
+{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.LeftHandSideComponent
+{
+    display: grid;
+    grid-template-columns: 30px 100px;
+    /* background-color: red; */
+    align-content: center;
+    align-items: center;
+    vertical-align: middle  ;
+    width: 200px;
+}
+
+.GoogleKeepLogo
+{
+    width:100px;
+    cursor: pointer;
+}
+
+.MiddleComponent
+{
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    width: 700px;
+    height: 50px;
+    display: flex;
+}
+
+.SearchBarDiv
+{
+    display: flex;
+    align-items: center;
+    align-content: start;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.SearchIcon
+{
+    margin-left: 10px;
+    width: 20px;
+}
+
+.SearchIcon:hover
+{
+    cursor: pointer;
+}
+
+.SearchBar
+{
+    flex: 1;
+    height: 31px;
+    background-color: rgb(234, 234, 234);
+    border-width: 0px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.SearchBar:hover
+{
+    background-color: rgb(222, 219, 219);
+}
+
+.RightHandSideComponent
+{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.ReloadImageIcon,.DoubleListIcon,.AllAppsIcon
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.SettingsIcon
+{
+    height: 25px;
+    width: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+}
