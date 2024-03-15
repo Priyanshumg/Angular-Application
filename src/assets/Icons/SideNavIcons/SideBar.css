@@ -1,0 +1,95 @@
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    margin: 0px;
+    height: 80vh;
+    padding-top: 80px;
+    background-color: rgb(244, 244, 244);
+}
+
+.SideNavigationBar
+{
+    background-color:white;
+    top: 71px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-right: 0px;
+    transition: 0.5s;
+}
+
+.SideNavigationBar:hover
+{
+    width: 300px;
+    overflow: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.NotesDiv,
+.NotificationDiv,
+.LabelDiv,
+.EditDiv,
+.ArchieveDiv,
+.DeleteDiv
+{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.NotesDiv:hover,
+.NotificationDiv:hover,
+.LabelDiv:hover,
+.EditDiv:hover,
+.ArchieveDiv:hover,
+.DeleteDiv:hover
+{
+    background-color: grey;
+}
+
+.NotesDiv:active,
+.NotificationDiv:active,
+.LabelDiv:active,
+.EditDiv:active,
+.ArchieveDiv:active,
+.DeleteDiv:active
+{
+    background-color: rgb(249, 223, 165);
+
+}
+
+
+.Nav-Lighbulb,
+.Nav-notification,
+.LabelIcon,
+.editicon,
+.ArchieveIcon,
+.DeleteIcon
+{
+    height: 25px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.nav-notes-text,
+.nav-reminder-text,
+.LabelText,
+.EditText,
+.ArchiveText,
+.DeleteText
+{
+    padding-top: 2px;
+    width: fit-content;
+    margin: 0;
+}
