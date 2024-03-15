@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './keep-app.component.html',
   styleUrl: './keep-app.component.scss'
 })
-export class KeepAppComponent {
+
+export class KeepAppComponent{
 
 }
