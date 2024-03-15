@@ -7,6 +7,6 @@ import { ReviewLoginAppComponent } from './component/review-login-app/review-log
 export const routes: Routes = [
   {path: 'login', component: LoginComponent },
   {path: 'register', component: RegisterComponent},
-  {path: 'KeepApp',component: KeepAppComponent},
+  {path: 'keepApp',component: KeepAppComponent},
   {path: "ReviewLogin", component: ReviewLoginAppComponent}
 ];
