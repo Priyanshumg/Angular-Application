@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Google Account</title>
+    <link rel="stylesheet" href="../login/login.component.scss">
+    <link rel="stylesheet" href="register.component.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <Script src="../JavaScript//passwordCheckbox.js"></Script>
+</head>
+
+<body>
+    <div class="Layout-container">
+        <div class="Layout">
+            <div class="Layout1">
+                <div class="GoogleImageLogoDiv">
+                    <img src="../../../assets/Images/GoogleLogoG.jpg" class="GoogleImageLogo">
+                    <div class="g-line"></div>
+                    <div class="g-inner"></div>
+                </div>
+                <div class="SigninTextDiv">
+                    <p class="SignInText">
+                        Create new Account
+                    </p>
+                </div>
+                <div class="UseGoogleAcountDiv">
+                    <p class="UseGoogleAcount">
+                        Sign in as new Google User
+                    </p>
+                </div>
+            </div>
+            <div class="Layout2">
+                <div class="Layout2Container">
+                    <div class="FirstNameLastName">
+                        <div class="FnameDiv">
+                            <p class="FirstNameTextElement">
+                                First Name
+                            </p>
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="LnameDiv">
+                            <p class="LastNameTextElement">
+                                Last Name
+                            </p>
+                            <input type="text" placeholder="LastName" class="LastName">
+                        </div>
+                    </div>
+                    <div class="newEmailDiv">
+                        <p class="NewEmailTextElement">
+                            Email
+                        </p>
+                        <input type="email" placeholder="Email" class="NewEmail">
+                    </div>
+                    <div class="NewConfirmPassword">
+                        <div class="NewPasswordDiv">
+                            <p class="NewPasswordText">
+                                Password
+                            </p>
+                            <input type="password" placeholder="Password" name="password">
+                        </div>
+                        <div class="ConfirmPasswordDiv">
+                            <p class="ConfirmPasswordText">
+                                Confirm password
+                            </p>
+                            <input type="password" placeholder="Confirm Password" name="password">
+                        </div>
+                    </div>
+                    <div class="DisplayCheckbox">
+                        <div style="display: flex;">
+                            <input type="checkbox" class="CheckBoxPassword" onclick="showpassword()">
+                            <p class="ShowPasswordText">
+                                show password
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <button class="SubmitButton">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: cornflowerblue;
+}
+
+.Layout
+{
+    width: 1000px;
+}
+.Layout1
+{
+    background-color: #140c34;
+    width: 30%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.backbutton
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 0px;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.WelcomeDivText,.SignInText
+{
+    color: white;
+    width: fit-content;
+}
+
+.WelcomeDivText
+{
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.SignInText
+{
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.Layout2
+{
+    background-color: white;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.SignIn,.EmailText,.passwordtext
+{
+    color: rgb(44,58,75);
+}
+
+.SignIn
+{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.EmailText,.passwordtext
+{
+    font-size: 10px;
+    color: rgb(101, 110, 120);
+    font-weight: 550;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.EmailInput,.passwordinput
+{
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 40px;
+    padding-left: 10px;
+    border-width: 0px;
+    color: #3e3e58;
+    background-color: #e9e9f2;
+    width: 245px;
+}
+
+.RememberMeElements
+{
+    display: grid;
+    grid-template-columns: 40px 130px 100px;
+    margin-top:10px;
+    font-size: 10px;
+
+}
+
+.remembermebox
+{
+    margin-top: 0px;
+}
+
+.remembermebox
+{
+    color: #140c34;
+    margin-left: 20px;
+}
+
+.RememberMeText
+{
+    margin-top: 0px;
+}
+
+.ForgetPasswordURL
+{
+    color:#a4a4e7;
+    text-decoration:none;
+    font-weight: 500;
+}
+
+.SubmitButton
+{
+    margin-left: 20px;
+    width: 250px;
+    height: 40px;
+}
